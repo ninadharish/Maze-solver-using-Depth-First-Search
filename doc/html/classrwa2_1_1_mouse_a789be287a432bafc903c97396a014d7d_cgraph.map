@@ -1,0 +1,4 @@
+<map id="rwa2::Mouse::search_maze" name="rwa2::Mouse::search_maze">
+<area shape="rect" id="node2" href="$classrwa2_1_1_mouse.html#a760964c393cf8861429d2e02aba4f033" title="Check if the input array is part of the given list. " alt="" coords="424,5,588,32"/>
+<area shape="rect" id="node3" href="$classrwa2_1_1_mouse.html#a35873f1fd775399f6506a1da415a8da9" title="Check whether travelling to the next node is possible. " alt="" coords="236,27,376,69"/>
+</map>

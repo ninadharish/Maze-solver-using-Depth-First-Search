@@ -1,0 +1,202 @@
+\hypertarget{classrwa2_1_1_mouse}{}\section{rwa2\+:\+:Mouse Class Reference}
+\label{classrwa2_1_1_mouse}\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+
+
+This class is used to compute a path and execute the path.  
+
+
+
+
+{\ttfamily \#include $<$mouse.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrwa2_1_1_mouse_a048dffae3aaa3a6ddc2c6cc4741a097c}{Mouse} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Micro\+Mouse object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_abbcc99c41fd073426fdfd790f947956e}\label{classrwa2_1_1_mouse_abbcc99c41fd073426fdfd790f947956e}} 
+void {\bfseries display\+\_\+walls} ()
+\item 
+bool \hyperlink{classrwa2_1_1_mouse_a789be287a432bafc903c97396a014d7d}{search\+\_\+maze} ()
+\begin{DoxyCompactList}\small\item\em Implement D\+FS to compute a path between 2 nodes in a maze. \end{DoxyCompactList}\item 
+bool \hyperlink{classrwa2_1_1_mouse_a35873f1fd775399f6506a1da415a8da9}{check\+\_\+validity} (int, int, int)
+\begin{DoxyCompactList}\small\item\em Check whether travelling to the next node is possible. \end{DoxyCompactList}\item 
+bool \hyperlink{classrwa2_1_1_mouse_a760964c393cf8861429d2e02aba4f033}{check\+\_\+list} (std\+::array$<$ int, 2 $>$, std\+::vector$<$ std\+::array$<$ int, 2 $>$$>$)
+\begin{DoxyCompactList}\small\item\em Check if the input array is part of the given list. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_ac33256110d3f1a3d2c1f0498898fc334}\label{classrwa2_1_1_mouse_ac33256110d3f1a3d2c1f0498898fc334}} 
+void \hyperlink{classrwa2_1_1_mouse_ac33256110d3f1a3d2c1f0498898fc334}{move\+\_\+mouse} ()
+\begin{DoxyCompactList}\small\item\em Move the mouse in the simulator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_ad9a06996a95ce3b02acc0a266e0cfe6c}\label{classrwa2_1_1_mouse_ad9a06996a95ce3b02acc0a266e0cfe6c}} 
+void \hyperlink{classrwa2_1_1_mouse_ad9a06996a95ce3b02acc0a266e0cfe6c}{check\+\_\+walls} ()
+\begin{DoxyCompactList}\small\item\em Check whether there are walls around the current node. \end{DoxyCompactList}\item 
+std\+::array$<$ int, 2 $>$ \hyperlink{classrwa2_1_1_mouse_a204d9d2ff255e82885ef3541c77fb0fb}{get\+\_\+goal} ()
+\begin{DoxyCompactList}\small\item\em Get the goal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a81a6dc8ebe05e7d75b7f3fb5537be739}\label{classrwa2_1_1_mouse_a81a6dc8ebe05e7d75b7f3fb5537be739}} 
+void \hyperlink{classrwa2_1_1_mouse_a81a6dc8ebe05e7d75b7f3fb5537be739}{set\+\_\+goal} (std\+::array$<$ int, 2 $>$)
+\begin{DoxyCompactList}\small\item\em Set the goal object. \end{DoxyCompactList}\item 
+bool \hyperlink{classrwa2_1_1_mouse_a67629e9752358e8a0207e9517e5c904d}{get\+\_\+break\+\_\+flag} ()
+\begin{DoxyCompactList}\small\item\em Get the break flag condition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_abb5990dd5f19cd8453011199ebd3240b}\label{classrwa2_1_1_mouse_abb5990dd5f19cd8453011199ebd3240b}} 
+void \hyperlink{classrwa2_1_1_mouse_abb5990dd5f19cd8453011199ebd3240b}{set\+\_\+break\+\_\+flag} (bool)
+\begin{DoxyCompactList}\small\item\em Change the value of the break flag condition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a24410ed49bebf1570e466aa5151a6ad3}\label{classrwa2_1_1_mouse_a24410ed49bebf1570e466aa5151a6ad3}} 
+void \hyperlink{classrwa2_1_1_mouse_a24410ed49bebf1570e466aa5151a6ad3}{clear\+\_\+list} ()
+\begin{DoxyCompactList}\small\item\em Clear the list of visited nodes. \end{DoxyCompactList}\item 
+std\+::stack$<$ std\+::array$<$ int, 2 $>$ $>$ \hyperlink{classrwa2_1_1_mouse_a809c9a41608037e6af0910765fe6fa06}{get\+\_\+stack} ()
+\begin{DoxyCompactList}\small\item\em Get the stack. \end{DoxyCompactList}\item 
+std\+::stack$<$ std\+::array$<$ int, 2 $>$ $>$ \hyperlink{classrwa2_1_1_mouse_aa6d86495a913a892ae279016d9e1181d}{get\+\_\+inv\+\_\+stack} ()
+\begin{DoxyCompactList}\small\item\em Get the inverted stack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_ab9bf8e2e4ac74c9b4294d8e55b6d3015}\label{classrwa2_1_1_mouse_ab9bf8e2e4ac74c9b4294d8e55b6d3015}} 
+void \hyperlink{classrwa2_1_1_mouse_ab9bf8e2e4ac74c9b4294d8e55b6d3015}{push\+\_\+inv\+\_\+stack} (std\+::array$<$ int, 2 $>$)
+\begin{DoxyCompactList}\small\item\em Method to push new element in stack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a0167912e328d9bae9d755f6b3498cddf}\label{classrwa2_1_1_mouse_a0167912e328d9bae9d755f6b3498cddf}} 
+void \hyperlink{classrwa2_1_1_mouse_a0167912e328d9bae9d755f6b3498cddf}{pop\+\_\+stack} ()
+\begin{DoxyCompactList}\small\item\em Method to pop the stack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2_1_1_mouse_affb37079cca281108a63ec5ec73f63aa}\label{classrwa2_1_1_mouse_affb37079cca281108a63ec5ec73f63aa}} 
+void \hyperlink{classrwa2_1_1_mouse_affb37079cca281108a63ec5ec73f63aa}{pop\+\_\+inv\+\_\+stack} ()
+\begin{DoxyCompactList}\small\item\em Method to pop the inverted stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is used to compute a path and execute the path. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a048dffae3aaa3a6ddc2c6cc4741a097c}\label{classrwa2_1_1_mouse_a048dffae3aaa3a6ddc2c6cc4741a097c}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!Mouse@{Mouse}}
+\index{Mouse@{Mouse}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{Mouse()}{Mouse()}}
+{\footnotesize\ttfamily rwa2\+::\+Mouse\+::\+Mouse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new Micro\+Mouse object. 
+
+The robot is always at (0,0) and facing N\+O\+R\+TH when the simulator starts Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classrwa2_1_1_mouse_a048dffae3aaa3a6ddc2c6cc4741a097c_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a760964c393cf8861429d2e02aba4f033}\label{classrwa2_1_1_mouse_a760964c393cf8861429d2e02aba4f033}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!check\+\_\+list@{check\+\_\+list}}
+\index{check\+\_\+list@{check\+\_\+list}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{check\+\_\+list()}{check\_list()}}
+{\footnotesize\ttfamily bool rwa2\+::\+Mouse\+::check\+\_\+list (\begin{DoxyParamCaption}\item[{std\+::array$<$ int, 2 $>$}]{p,  }\item[{std\+::vector$<$ std\+::array$<$ int, 2 $>$$>$}]{v }\end{DoxyParamCaption})}
+
+
+
+Check if the input array is part of the given list. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a35873f1fd775399f6506a1da415a8da9}\label{classrwa2_1_1_mouse_a35873f1fd775399f6506a1da415a8da9}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!check\+\_\+validity@{check\+\_\+validity}}
+\index{check\+\_\+validity@{check\+\_\+validity}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{check\+\_\+validity()}{check\_validity()}}
+{\footnotesize\ttfamily bool rwa2\+::\+Mouse\+::check\+\_\+validity (\begin{DoxyParamCaption}\item[{int}]{dir,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Check whether travelling to the next node is possible. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{classrwa2_1_1_mouse_a35873f1fd775399f6506a1da415a8da9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a67629e9752358e8a0207e9517e5c904d}\label{classrwa2_1_1_mouse_a67629e9752358e8a0207e9517e5c904d}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!get\+\_\+break\+\_\+flag@{get\+\_\+break\+\_\+flag}}
+\index{get\+\_\+break\+\_\+flag@{get\+\_\+break\+\_\+flag}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{get\+\_\+break\+\_\+flag()}{get\_break\_flag()}}
+{\footnotesize\ttfamily bool rwa2\+::\+Mouse\+::get\+\_\+break\+\_\+flag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the break flag condition. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a204d9d2ff255e82885ef3541c77fb0fb}\label{classrwa2_1_1_mouse_a204d9d2ff255e82885ef3541c77fb0fb}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!get\+\_\+goal@{get\+\_\+goal}}
+\index{get\+\_\+goal@{get\+\_\+goal}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{get\+\_\+goal()}{get\_goal()}}
+{\footnotesize\ttfamily std\+::array$<$ int, 2 $>$ rwa2\+::\+Mouse\+::get\+\_\+goal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the goal. 
+
+\begin{DoxyReturn}{Returns}
+std\+::array$<$int,2$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_aa6d86495a913a892ae279016d9e1181d}\label{classrwa2_1_1_mouse_aa6d86495a913a892ae279016d9e1181d}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!get\+\_\+inv\+\_\+stack@{get\+\_\+inv\+\_\+stack}}
+\index{get\+\_\+inv\+\_\+stack@{get\+\_\+inv\+\_\+stack}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{get\+\_\+inv\+\_\+stack()}{get\_inv\_stack()}}
+{\footnotesize\ttfamily std\+::stack$<$ std\+::array$<$ int, 2 $>$ $>$ rwa2\+::\+Mouse\+::get\+\_\+inv\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the inverted stack. 
+
+\begin{DoxyReturn}{Returns}
+std\+::stack$<$std\+::array$<$int, 2$>$$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a809c9a41608037e6af0910765fe6fa06}\label{classrwa2_1_1_mouse_a809c9a41608037e6af0910765fe6fa06}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!get\+\_\+stack@{get\+\_\+stack}}
+\index{get\+\_\+stack@{get\+\_\+stack}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{get\+\_\+stack()}{get\_stack()}}
+{\footnotesize\ttfamily std\+::stack$<$ std\+::array$<$ int, 2 $>$ $>$ rwa2\+::\+Mouse\+::get\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the stack. 
+
+\begin{DoxyReturn}{Returns}
+std\+::stack$<$std\+::array$<$int, 2$>$$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_mouse_a789be287a432bafc903c97396a014d7d}\label{classrwa2_1_1_mouse_a789be287a432bafc903c97396a014d7d}} 
+\index{rwa2\+::\+Mouse@{rwa2\+::\+Mouse}!search\+\_\+maze@{search\+\_\+maze}}
+\index{search\+\_\+maze@{search\+\_\+maze}!rwa2\+::\+Mouse@{rwa2\+::\+Mouse}}
+\subsubsection{\texorpdfstring{search\+\_\+maze()}{search\_maze()}}
+{\footnotesize\ttfamily bool rwa2\+::\+Mouse\+::search\+\_\+maze (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implement D\+FS to compute a path between 2 nodes in a maze. 
+
+\begin{DoxyReturn}{Returns}
+true A path is found 
+
+false A path is not found 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classrwa2_1_1_mouse_a789be287a432bafc903c97396a014d7d_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/mouse/\hyperlink{mouse_8h}{mouse.\+h}\item 
+src/mouse.\+cpp\end{DoxyCompactItemize}

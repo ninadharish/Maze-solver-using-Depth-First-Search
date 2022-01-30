@@ -1,0 +1,26 @@
+Instruction file for RWA2_Group22 :
+
+Authored by: Ninad Harishchandrakar (ninadh@umd.edu)
+
+
+1. Go to directory '.../RWA2_simulator/mms/bin' in terminal and run the command $./mms to start the MicroMouse simulator.
+
+2. Choose a maze from the Resources option.
+
+3. Click on the add file button. A window to specify certain details will open.
+
+4. Specify any name.
+
+5. In the Directory field, browse to the folder '.../RWA2_Group22/src'.
+
+6. In the Build field, input "g++ api.cpp node.cpp mouse.cpp main.cpp".
+
+7. In the Run field, type "./a.out" and click 'OK'.
+
+8. Click 'Build' to compile the program in the simulator.
+
+9. After build is completed, adjust the mouse speed slider to get the desired speed.
+
+10. Click on 'Run'.
+
+11. The mouse starts its run and completes the maze.
