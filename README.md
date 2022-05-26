@@ -34,10 +34,6 @@ The Video Output can be found [here](https://drive.google.com/file/d/1MMMz3iHsMK
 * [C++](https://www.cplusplus.com/)
 * [MicroMouse Simulator](https://github.com/mackorone/mms)
 
-### Installing
-
-* Install ROS using the instructions on the [link](http://wiki.ros.org/Installation/Ubuntu).
-
 ### Executing program
 
 * Clone the MicroMouse simulator and a set of maze files in the folder .../simulator
