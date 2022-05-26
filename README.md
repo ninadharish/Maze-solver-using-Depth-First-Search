@@ -85,7 +85,7 @@ cd /mms/bin
 
 ## Acknowledgments
 
-👤 **Mack Ward**
+👤 **Mack Ward** (Author, MicroMouse Simulator)
 
 * [Website](https://www.mackorone.com/)
 * [Email](mackorone@gmail.com)
