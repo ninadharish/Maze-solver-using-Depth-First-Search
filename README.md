@@ -75,7 +75,7 @@ cd /mms/bin
 👤 **Ninad Harishchandrakar**
 
 * [GitHub](https://github.com/ninadharish)
-* [Email](ninad.harish@gmail.com)
+* [Email](mailto:ninad.harish@gmail.com)
 * [LinkedIn](https://linkedin.com/in/ninadharish)
 
 
@@ -84,5 +84,5 @@ cd /mms/bin
 👤 **Mack Ward** (Author, MicroMouse Simulator)
 
 * [Website](https://www.mackorone.com/)
-* [Email](mackorone@gmail.com)
+* [Email](mailto:mackorone@gmail.com)
 * [GitHub](https://github.com/mackorone)
